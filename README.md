@@ -12,7 +12,7 @@ This system intends to develop a model for drones recognising the vehicles on In
 
 ### Jetpack Installation
 1. **Install Jetpack 4.6.1**:
-   Follow the instructions provided in the [Nvidia official documentation https://developer.nvidia.com/embedded/jetpack](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit.]
+   Follow the instructions provided in the [Nvidia official documentation](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
 ### Increase Swap Size
 Increase the swap size on your Jetson Nano to ensure smooth operation. You can follow this [guide]([https://www.youtube.com/watch?v=7n9RgLE6uqU](https://www.forecr.io/blogs/programming/how-to-increase-swap-space-on-jetson-modules)) for instructions.
