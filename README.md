@@ -17,6 +17,26 @@ This system intends to develop a model for drones recognising the vehicles on In
 ### Increase Swap Size
 Increase the swap size on your Jetson Nano to ensure smooth operation. You can follow this [guide](https://www.forecr.io/blogs/programming/how-to-increase-swap-space-on-jetson-modules) for instructions.
 
+### Python Installation
+Ensure you have Python 3.8 or greater installed. If not, install it using:
+```bash
+sudo apt-get update
+sudo apt-get install python3.8
+
+### Python Installation
+Ensure you have Python 3.8 or greater installed. If not, install it using:
+```bash
+sudo apt-get update
+sudo apt-get install python3.8
+
+Create Virtual Environment
+Create and activate a virtual environment:
+
+bash
+Copy code
+python3.8 -m venv venv
+source venv/bin/activate
+
 ### Clone Repository
 Clone this repository and navigate to the project directory:
 ```bash
