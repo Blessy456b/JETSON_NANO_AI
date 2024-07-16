@@ -29,6 +29,7 @@ Ensure you have Python 3.8 or greater installed. If not, install it using:
 ```bash
 sudo apt-get update
 sudo apt-get install python3.8
+```
 
 Create Virtual Environment
 Create and activate a virtual environment:
