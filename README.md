@@ -24,20 +24,20 @@ sudo apt-get update
 sudo apt-get install python3.8
 ```
 
-### Python Installation
-Ensure you have Python 3.8 or greater installed. If not, install it using:
-```bash
-sudo apt-get update
-sudo apt-get install python3.8
-```
-
-Create Virtual Environment
+### Create Virtual Environment
 Create and activate a virtual environment:
 
-bash
-Copy code
+```bash
 python3.8 -m venv venv
 source venv/bin/activate
+```
+### Install YOLOv5
+Install YOLOv5 and its dependencies:
+```bash
+git clone https://github.com/ultralytics/yolov5  # clone
+cd yolov5
+pip install -r requirements.txt
+```
 
 ### Clone Repository
 Clone this repository and navigate to the project directory:
